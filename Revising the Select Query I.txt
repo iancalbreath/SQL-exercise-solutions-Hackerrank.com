@@ -1,0 +1,5 @@
+Source: https://www.hackerrank.com/challenges/revising-the-select-query/problem
+
+My solution: 
+
+SELECT * FROM City WHERE Population > 100000 and Countrycode = "USA";

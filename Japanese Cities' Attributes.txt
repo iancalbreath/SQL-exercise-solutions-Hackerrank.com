@@ -1,0 +1,5 @@
+Source: https://www.hackerrank.com/challenges/japanese-cities-attributes/problem
+
+My solution: 
+
+SELECT * FROM City WHERE Countrycode = "JPN";

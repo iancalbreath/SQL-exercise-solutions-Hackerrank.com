@@ -1,0 +1,5 @@
+Source: https://www.hackerrank.com/challenges/japanese-cities-name/problem
+
+My solution: 
+
+SELECT Name from City WHERE Countrycode = "JPN";

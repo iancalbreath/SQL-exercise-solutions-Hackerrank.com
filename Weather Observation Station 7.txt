@@ -1,0 +1,10 @@
+Source: https://www.hackerrank.com/challenges/weather-observation-station-7/problem
+
+My solution:
+
+SELECT DISTINCT City FROM station WHERE City LIKE "%a"
+    OR City LIKE "%e"
+    OR City LIKE "%i"
+    OR City LIKE "%o"
+    OR City LIKE "%u";
+    

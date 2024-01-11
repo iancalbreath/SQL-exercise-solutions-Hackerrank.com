@@ -1,0 +1,5 @@
+Source: https://www.hackerrank.com/challenges/weather-observation-station-4/problem
+
+My solution: 
+
+SELECT count(City)-count(DISTINCT City) FROM station;

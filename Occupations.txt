@@ -1,0 +1,16 @@
+Source: https://www.hackerrank.com/challenges/occupations/problem
+
+My solution:
+
+SELECT
+    [Doctor] as Doctor, 
+    [Professor] as Professor, 
+    [Singer] as Singer,
+    [Actor] as Actor
+FROM
+
+(SELECT ROW_NUMBER() OVER(PARTITION BY Occupation order by name asc) as rn, name, occupation FROM OCCUPATIONS) AS SourceT;
+
+PIVOT (
+max(Name) FOR [Occupation] IN ([Actor], [Doctor], [Professor], [Singer])
+) as PivotT;

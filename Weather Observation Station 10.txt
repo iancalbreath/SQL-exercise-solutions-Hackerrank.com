@@ -1,0 +1,9 @@
+Source: https://www.hackerrank.com/challenges/weather-observation-station-10
+
+My solution:
+
+SELECT DISTINCT City FROM station WHERE City NOT LIKE "%a" 
+AND City NOT LIKE "%e" 
+AND City NOT LIKE "%i" 
+AND City NOT LIKE "%o" 
+AND City NOT LIKE "%u" ;

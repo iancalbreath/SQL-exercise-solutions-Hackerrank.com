@@ -1,0 +1,5 @@
+Source: https://www.hackerrank.com/challenges/more-than-75-marks/problem
+
+My solution: 
+
+SELECT Name FROM students WHERE Marks > "75" ORDER BY RIGHT(Name,3), ID ASC;

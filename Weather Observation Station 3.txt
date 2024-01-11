@@ -1,0 +1,5 @@
+Source: https://www.hackerrank.com/challenges/weather-observation-station-3/problem
+
+My solution: 
+
+SELECT DISTINCT City FROM station WHERE ID % 2 = 0;

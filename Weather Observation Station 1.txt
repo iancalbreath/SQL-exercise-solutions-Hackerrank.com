@@ -1,0 +1,5 @@
+Source: https://www.hackerrank.com/challenges/weather-observation-station-1/problem
+
+My solution: 
+
+SELECT City, State FROM station;

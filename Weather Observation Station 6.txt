@@ -1,0 +1,5 @@
+Source: https://www.hackerrank.com/challenges/weather-observation-station-6/problem
+
+My solution: 
+
+SELECT DISTINCT City FROM station WHERE left(City,1) IN ('a','e','i','o','u');

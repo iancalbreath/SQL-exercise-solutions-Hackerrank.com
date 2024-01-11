@@ -1,0 +1,7 @@
+Source: https://www.hackerrank.com/challenges/weather-observation-station-5/problem
+
+My solution: 
+
+SELECT City, LEN(City) FROM station WHERE LEN(City) in (SELECT MAX(LEN(City)) FROM station);
+
+SELECT top 1 City, LEN(City) FROM station WHERE LEN(City) in (SELECT MIN(LEN(City)) FROM station) ORDER BY City ASC;

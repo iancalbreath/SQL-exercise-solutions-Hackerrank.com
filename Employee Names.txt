@@ -1,0 +1,5 @@
+Source: https://www.hackerrank.com/challenges/name-of-employees/problem
+
+My solution: 
+
+SELECT name FROM employee ORDER BY name ASC;

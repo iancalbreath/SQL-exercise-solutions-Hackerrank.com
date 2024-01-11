@@ -1,0 +1,9 @@
+Source: https://www.hackerrank.com/challenges/the-pads/problem
+
+My solution: 
+
+SELECT concat(Name, '(', SUBSTRING(Occupation, 1, 1), ')') FROM OCCUPATIONS order by name;
+
+SELECT concat("There are a total of ", count(Occupation)," ", LOWER(Occupation), "s.") from OCCUPATIONS
+GROUP BY Occupation
+ORDER BY count(Occupation) asc;

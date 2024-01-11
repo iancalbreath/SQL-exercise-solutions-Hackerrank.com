@@ -1,0 +1,9 @@
+Source: https://www.hackerrank.com/challenges/weather-observation-station-8
+
+My solution:
+
+SELECT City FROM station WHERE left(City,1) IN ('a','e','i','o','u') AND City LIKE "%a"
+    OR left(City,1) IN ('a','e','i','o','u') AND City LIKE "%e"
+    OR left(City,1) IN ('a','e','i','o','u') AND City LIKE "%i"
+    OR left(City,1) IN ('a','e','i','o','u') AND City LIKE "%o"
+    OR left(City,1) IN ('a','e','i','o','u') AND City LIKE "%u";
